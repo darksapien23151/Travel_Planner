@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>
+            Travel planner
+        </title>
+        <link rel="stylesheet" href="main_login.css">
+        <script src="main_login.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            body {
+                background-image: url('https://img.freepik.com/free-vector/realistic-travel-background-with-elements_52683-77784.jpg?w=1060&t=st=1698226420~exp=1698227020~hmac=585234e487c62460cbb66a6146aaa901a2c83b8977d6c68d73582f986e349de9'); 
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div id="menu-bar"><i class="fa fa-bars" id="menu-bar"></i></div>
+            <a href="#" class="logo"><span>T</span>ravel</a>
+            <nav class = "navbar">
+                <a href="#home">Home</a>
+                <a href="C:\Users\91630\OneDrive\Desktop\NETLIX CLONE\python_mini\maincalender.html">Calender</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="icons">
+                <i class="fa fa-user fa-3x" id="login-btn"></i>
+                <!-- icons -->
+            </div>
+        </header>
+        <div class="login_form_container">
+            <i class="fa fa-times" id="form-close"></i>
+            <form action="">
+                <h3>login</h3>
+                <input type="email" class="box" placeholder="enter your email">
+                <input type="password" class="box" placeholder="enter your password">
+                <input type="submit" value="login now" class="btn">
+                <input type="checkbox" id="remember">
+                <label for="remember">remember me</label>
+                <p>forgot password? <a href="#">click here</a></p>
+                <p>don't have an account?<a href="#">register now</a></p>
+            </form>
+        </div>
+        <section class="home" id="home">
+            <div class="content">
+                <h3>
+                    Travelling made easy
+                </h3>
+                <p>
+                    Planning made easy!
+                </p>
+                <a href="#" class="btn">discover more</a>
+            </div>
+            <div class="controls">
+                <span class="vid-btn active" img-src="images.jpeg"></span>
+                <span class="vid-btn" data-src="download.jpeg "></span>
+                <span class="vid-btn" data-src="logo.png"></span>
+                <span class="vid-btn" data-src="rocket.png"></span>
+                <span class="vid-btn" data-src="rocket.png"></span>
+
+            </div>
+            <div class="video-container">
+                <video src="vid1.mp4" id="video-slider" loop autoplay muted></video>
+            </div>
+
+        </section>
+
+        <section class="book" id="book">
+            <h1 class="heading">
+                <span>b</span>
+                <span>o</span>
+                <span>o</span>
+                <span>k</span>
+                <span class="space"></span>
+                <span>n</span>
+                <span>o</span>
+                <span>w</span>
+            </h1>
+            <div class="row">
+                <div class="image">
+                    <img src="planner2.jpg" alt="">
+                </div>
+                <form action="">
+                    <div class="inputBox">
+                        <h3>
+                            where to
+                        </h3>
+                        <input type="text" placeholder="place name">
+                    </div>
+                    <div class="inputBox">
+                        <h3>
+                            how many
+                        </h3>
+                        <input type="number" placeholder="number of guests">
+                    </div>
+                    <div class="inputBox">
+                        <h3>
+                            arrivals
+                        </h3>
+                        <input type="date" placeholder="arriving on">
+                    </div>
+                    <div class="inputBox">
+                        <h3>
+                            leaving
+                        </h3>
+                        <input type="date" placeholder="leaivng on">
+                    </div>
+                    <input type="submit" class="btn" value="book now">
+                </form>
+            </div>
+        </section>
+        <section class="contact" >
+            <h1 class="heading">
+                <span>c</span>
+                <span>o</span>
+                <span>n</span>
+                <span>t</span>
+                <span>a</span>
+                <span>c</span>
+                <span>t</span>
+            </h1>
+            <div class="row">
+                <div class="image">
+                    <img src="ocntact1.jpeg" alt="">
+                </div>
+                <form action="">
+                    <div class="inputBox">
+                        <input type="text" placeholder="name">
+                        <input type="email" placeholder="email">
+                    </div>
+                    <div class="inputBox">
+                        <input type="number" placeholder="number">
+                        <input type="text" placeholder="subject">
+                    </div>
+                    <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+                    <input type="submit" class="btn" value="send the message">
+                </form>
+            </div>
+        </section>
+    </body>
+</html>
